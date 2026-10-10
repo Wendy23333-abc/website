@@ -1,22 +1,131 @@
-  <nav class="desktop-nav" aria-label="Primary">
-    <a href="#about">About Me</a>
-    <a href="#studies">Studies &amp; Courses</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle navigation">
-    <span class="bar"></span>
-    <span class="bar"></span>
-    <span class="bar"></span>
-  </button>
-
-  <div id="mobile-menu" class="mobile-nav" hidden>
-    <a href="#about">About Me</a>
-    <a href="#studies">Studies &amp; Courses</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
+    <div class="hero-right" aria-hidden="true">
+      <div class="avatar">
+        <!-- Public placeholder image -->
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=7e6c3ee4ed1d3f19d0f3b6d2f7b9b1be" alt="Portrait placeholder">
+      </div>
+    </div>
   </div>
-</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="section-title">
+      <h2 id="about-heading">About Me</h2>
+    </div>
+
+    <div class="about">
+      <div class="about-card">
+        <p>
+          I am a year 4 Professional Accountancy student, <strong>Kwok Wan Yee</strong>, at The Hang Seng University of Hong Kong. My major focus is accounting, finance and business operations. I am taking <strong>COM1006 Artificial Intelligence and Its Applications</strong> as an elective course to understand how AI tools can transform accounting workflows, data analysis and business decision-making. I enjoy exploring practical AI use cases for the finance and accounting industry.
+        </p>
+      </div>
+
+      <aside class="about-card small" aria-hidden="true">
+        <strong>Current</strong>
+        <p class="muted small" style="margin-top:8px">Professional Accountancy Student — Year 4<br>The Hang Seng University of Hong Kong</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- STUDIES -->
+<section id="studies" aria-labelledby="studies-heading">
+  <div class="container">
+    <div class="section-title">
+      <h2 id="studies-heading">My Studies &amp; Courses</h2>
+    </div>
+
+    <p class="section-sub">In my final-year accounting studies, I learn accounting, auditing and taxation. Through this COM1006 elective, I gain hands-on experience with AI tools to bridge accounting knowledge with artificial intelligence.</p>
+
+    <div style="margin-top:18px" class="about-card">
+      <p style="margin:0 0 12px 0; font-weight:700; color:var(--primary)">Accountancy Major — Current Courses</p>
+      <div class="studies-list">
+        <div class="course">ACY4001 Advanced Accounting 1</div>
+        <div class="course">ACY4003 Advanced Taxation</div>
+        <div class="course">ACY4004 Auditing and Assurance 2</div>
+        <div class="course">COM1006 Artificial Intelligence and Its Applications</div>
+      </div>
+      <p class="studies-text" style="margin-top:12px">These courses build technical accounting skills and support practical application in real business contexts, while COM1006 introduces AI approaches relevant to accounting and decision-making.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" aria-labelledby="projects-heading">
+  <div class="container">
+    <div class="section-title">
+      <h2 id="projects-heading">My Projects</h2>
+    </div>
+
+    <p class="section-sub">Selected academic projects demonstrating auditing, analysis and industry research.</p>
+
+    <div style="margin-top:18px" class="projects-grid">
+      <article class="project-card" aria-labelledby="proj1-title">
+        <div id="proj1-title" class="project-title">Auditing Group Project</div>
+        <div class="project-desc">Design audit plans for Hong Kong Broadband, analyze their audit risks, and provide recommendations for those risks.</div>
+        <div class="tags" aria-hidden="true">
+          <span class="tag">Auditing</span>
+          <span class="tag">Risk Analysis</span>
+          <span class="tag">Group Work</span>
+        </div>
+      </article>
+
+      <article class="project-card" aria-labelledby="proj2-title">
+        <div id="proj2-title" class="project-title">Final Year Project (Higher Diploma)</div>
+        <div class="project-desc">This analysis examines the current situation of Henderson Land Development and its role in the real estate industry.</div>
+        <div class="tags" aria-hidden="true">
+          <span class="tag">Industry Analysis</span>
+          <span class="tag">Real Estate</span>
+          <span class="tag">Research</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" aria-labelledby="skills-heading">
+  <div class="container">
+    <div class="section-title">
+      <h2 id="skills-heading">Technical &amp; Professional Skills</h2>
+    </div>
+
+    <div class="skills-grid" style="margin-top:18px">
+      <div class="skill-box">
+        <strong>Accounting &amp; Business Knowledge</strong>
+        <ul class="skill-list" style="margin-top:8px">
+          <li>Financial reporting</li>
+          <li>Auditing concepts</li>
+          <li>Taxation</li>
+          <li>Business data interpretation</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <strong>Computer Knowledge</strong>
+        <ul class="skill-list" style="margin-top:8px">
+          <li>Microsoft Office (Excel, Word, PowerPoint)</li>
+          <li>MYOB</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="section-title">
+      <h2 id="contact-heading">Get In Touch</h2>
+    </div>
+
+    <div class="contact-card" style="margin-top:12px">
+      <div class="contact-info">
+        <p style="margin:0 0 6px 0"><strong>Student Email:</strong> <a href="mailto:s256042@hsu.edu.hk">s256042@hsu.edu.hk</a></p>
+        <p style="margin:0 0 6px 0"><strong>Student ID:</strong> s256042</p>
+        <p style="margin:0"><strong>GitHub:</strong> <a href="#" aria-label="GitHub profile placeholder">github.com/your-username</a></p>
+      </div>
+    </div>
+  </div>
+</section>
